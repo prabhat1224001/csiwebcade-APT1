@@ -1,0 +1,67 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the page background */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* Ensure the container spans the full height */
+.background {
+    min-height: 100vh; /* Ensure the background covers the full viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./back.jpg");
+    background-size: cover;
+    
+}
+
+/* Custom form styling */
+.custom-form {
+    background-color: #fff; /* Form background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow around the form */
+}
+
+/* Form title styling */
+.form-title {
+    font-size: 1.5rem;
+    color: #8000ff; /* Title text color */
+    margin-bottom: 20px;
+    text-align: center; /* Centered form title */
+}
+
+/* Input fields styling */
+.form-control {
+    margin-bottom: 15px; /* Spacing between input fields */
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #8000ff; /* Primary button color */
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #5f00b3; /* Darker purple on hover */
+}
+
+.text-center {
+    text-align: center;
+}
